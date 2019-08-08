@@ -24,7 +24,7 @@ $(document).ready(function() {
 			answers: [
 				{text: "Sordid Lives", isCorrect: false},
 				{text: "Two of a Kind", isCorrect: true},
-				{text: "The Grinch Who Stole Christmas", isCorrect: false},
+				{text: "Xanadu", isCorrect: false},
 			]
 		},
 		{
@@ -40,7 +40,7 @@ $(document).ready(function() {
 			answers: [
 				{text: "America", isCorrect: false},
 				{text: "Ireland", isCorrect: false},
-				{text: "South Africa", isCorrect: false},
+				{text: "England", isCorrect: false},
 				{text: "Australia", isCorrect: true}
 			]
 		},
@@ -131,7 +131,7 @@ $(document).ready(function() {
 	function generateLossAtTimeOut() {
 		unanswered++;
 		var timeOutText = "<p class='timeOutText text-center'>TIME'S UP!</p>";
-		var imgHTML = "<img class='center-block imgWrong' src='assets/images/x.png'>";
+		var imgHTML = "<img class='center-block imgWrong' src='./Assets/redx.pgn'>";
 		gameHTML =  timeOutText + imgHTML;
 		$(".mainArea").html(gameHTML);
 		setTimeout(nextDisplay, 3000);  
