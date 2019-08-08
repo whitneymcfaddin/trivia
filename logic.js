@@ -131,7 +131,7 @@ $(document).ready(function() {
 	function generateLossAtTimeOut() {
 		unanswered++;
 		var timeOutText = "<p class='timeOutText text-center'>TIME'S UP!</p>";
-		var imgHTML = "<img class='center-block imgWrong' src='./Assets/redx.pgn'>";
+		var imgHTML = "<img class='center-block imgWrong' src='./Assets/redx.png'>";
 		gameHTML =  timeOutText + imgHTML;
 		$(".mainArea").html(gameHTML);
 		setTimeout(nextDisplay, 3000);  
